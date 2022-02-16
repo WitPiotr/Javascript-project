@@ -1,0 +1,125 @@
+body{
+    display: grid;
+    grid-template-columns: 12vw 88vw;
+    margin: 0px;
+    background: #BBD2C5; 
+    background-image: linear-gradient(to right top, #00e563, #00ddb1, #00ceed, #00b8ff, #009dff, #009dff, #009dfe, #009dfe, #00b9ff, #00d3ff, #00eaff, #00ffef);}
+
+#list{
+    padding-top: 10vh;
+    margin: 0px;
+    border-right: solid 1px  #536976;
+    height: 100vh;
+}
+
+.link{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    justify-items: center;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+
+#content{
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+#can{
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+
+.dropdown-content {
+    display: none;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #536976;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;     
+    animation-name: probna;
+    animation-duration: 0.5s;
+}
+
+.link:hover{
+    color: white;
+    transition: color 1s linear;
+    background-color: #2a2a2b;
+    transition: color 1s linear;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%; 
+    background:#536976;
+    cursor: pointer;
+    border:solid 1px #BBD2C5;
+  }
+  
+
+  #myButton Button{
+    display:inline-block;
+    padding:0.7em 1.7em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:15px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#586269;
+    text-align:center;
+    position:relative;
+  }
+  #title{
+      padding-bottom: 20px;
+        font-size: 43px;
+  }
+#layout{
+    display: grid;
+    grid-template-columns: 10vw 10vw;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
